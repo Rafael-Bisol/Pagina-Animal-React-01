@@ -14,7 +14,7 @@ function App() {
     <>
       <div className="App">
         <h1>{animal.tipo}</h1>
-        <img src={animal.img} alt={animal.imgalt}></img>
+        <img src={animal.img} alt={animal.imgalt} width="300"></img>
         <p>{animal.desc}</p>
         <button onClick={() => alert('Saiba mais sobre os dragões!')}>Saiba Mais</button>
       </div>
